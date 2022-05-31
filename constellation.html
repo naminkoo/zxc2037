@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>우주 이미지</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">우주 이미지들</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="../portimg/moon.jpg" style="width:100%">
+  <img class="mySlides" src="../portimg/cow.jpg" style="width:100%">
+  <img class="mySlides" src="../portimg/milky-way.jpg" style="width:100%">
+  <img class="mySlides" src="../portimg/sp3.png" style="width:100%">
+  <img class="mySlides" src="../portimg/milky-way2.jpg" style="width:10">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<br>
+<p></b><a href="./stars.html"><b>홈페이지로 돌아가기</b></a></p>
+</body>
+</html>
