@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{background-color: powderblue;
+        margin: 100px;}
+    img{border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    margin: 50px;}
+</style>
+<body>
+    <div> <!--..은 나의 윗경로-->
+        <img src="./img/bbororo3.png" alt="이글이뜨면 이미지오류 또는 경로오류" width="200px" height="300px">
+        <!--나의위치보다 상위의위치 상대위치-->
+        <img src="../images/imgWearther.png" alt="이글이뜨면 이미지오류 또는 경로오류">
+    </div>
+    <div>   
+        <!--현재 나의위치 절대경로-->
+        <!--나의집주소 대한민국 경기도 xx구xx-->
+        <img src="D:\HTML_202205\ex0510\img/bbororo3.png" alt="이글이뜨면 이미지오류 또는 경로오류">
+        <img src="D:\HTML_202205\images/imgWearther.png" alt="이글이뜨면 이미지오류 또는 경로오류">
+    </div>
+
+</body>
+</html>

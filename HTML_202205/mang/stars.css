@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    background-color: aqua;
+}
+
+.starmenu {
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+.starmenu a{
+    float: left;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+.starmenu a :hover{
+    background-color: rgb(199, 241, 108);
+}
+
+
+
+section {
+    padding: 10px 0;
+    background-color: coral;
+}
+
+div {
+    display: flex;
+    height: 200px;
+}
+
+div p {
+    flex: 1;
+    height: 440px;
+    /* background-color: khaki; */
+}
+.side1 {
+    background-color: azure;
+}
+.side2 {
+    padding:  30px;
+    background-image: url(../portimg/sp3.png);
+    text-align: left; color: white;
+}
+
+.center {
+    padding:  30px;
+    background-color: lightcyan;
+}
+
+footer {
+    width: 100%;
+    position:  absolute;
+    bottom: 0;
+    left: 0;
+    padding: 6px;
+    background-color: darkgoldenrod;
+   
+  
+}

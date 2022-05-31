@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    }
+body{
+    margin: 0;
+    }
+header{
+    padding: 10px;
+    background-color: blue;
+    }
+nav{
+    background-color: darkgreen;
+    overflow: hidden;
+    }
+nav a {
+    float: left;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    }
+section{
+    padding: 20px 0;
+    background-color: hotpink;
+    }
+section p {
+    float: left;
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    }
+    @media (max-width:600px) {
+        section p {
+            width: 100%;
+        }
+    }
+    
+    footer {
+        clear: both;
+        padding: 10px;
+        background-color: darkgoldenrod;
+    }

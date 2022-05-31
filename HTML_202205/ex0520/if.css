@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+}
+
+header {
+    padding: 10px;
+    background-color: aqua;
+    
+}
+
+nav {
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px 0;
+    background-color: coral;
+}
+
+div {
+    display: flex;
+    height: 200px;
+}
+
+div p {
+    /* flex: 1; */
+    height: 650px;
+    /* background-color: khaki; */
+}
+
+.side {
+    background-color: lightblue;
+    flex: 1;
+}
+
+.center {
+    background-image: url(../images/dulli.jpg);
+    flex: 2;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: darkgoldenrod;
+}
